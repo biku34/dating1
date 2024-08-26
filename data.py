@@ -31,7 +31,7 @@ def main():
             data = [name, email, phone, gender, university, desc_yourself, hobbies_interests, age, looking_for]
             
             # Append to CSV file
-            with open("https://docs.google.com/spreadsheets/d/1_-NZB_ECz8MGrYwN5tlu-EGSxzpE735BHrTAP8cmO9w/", mode='a', newline='') as file:
+            with open("https://github.com/biku34/dating1/blob/main/registrations.csv", mode='a', newline='') as file:
                 writer = csv.writer(file)
                 # Write header if file is empty
                 if file.tell() == 0:
